@@ -1,0 +1,232 @@
+a {
+	color: #99c2ff;
+}
+.cover_image {
+	position: absolute;
+	left: 890px;
+	top: 210px;
+z-index: 7;
+	border-radius: 20px 0px 0px 20px;
+transform: scale(1.55) scaleY(1.2);
+  display: block;
+
+}
+
+.image_overlay {
+	position: absolute;
+	top: 90px;
+	left: 775px;
+	width: 650px;
+	height: 520px;
+	background: rgb(0, 0, 255, 0.6);
+	opacity: 0;
+	color: white;
+	z-index: 8;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px 0px 0px 30px;
+	opacity: 0;
+	font-size: 20px;
+}
+.image_overlay:hover {
+opacity: 1;
+}
+
+
+
+h1 {
+  color: #0000ff;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 160px;
+  left: 50px;
+  z-index: 2;
+  font-size: 60px;
+}
+h2 {
+
+	color: #d9d9d9;
+	font-family: Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 12px;
+	z-index: 6;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+
+}
+h3 {
+	color: #a6a6a6;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	z-index: 6;
+	position: absolute;
+	top: 310px;
+	left: 50px;
+	text-align: left;
+	margin-right: 55%;
+	line-height: 1.5;
+	font-weight: normal;
+
+}
+
+h4 {
+	color: black;
+	font-family: Bookman, URW Bookman L, serif;
+	font-weight: normal;
+	font-size: 29px;
+	position: absolute;
+	top: 650px;
+	left: 50px;
+}
+
+
+.line { 
+	position: absolute;
+	top: 750px;
+	left: 50px;
+	border: 2px solid #0000ff;
+	border-radius: 30px 30px 30px 30px;
+ width: 10%;  
+
+}
+
+
+h5 {
+		color: black;
+	font-family: Bookman, URW Bookman L, serif;
+	font-weight: normal;
+	font-size: 29px;
+	position: absolute;
+	top: 1650px;
+	left: 50px;
+}
+
+
+.line2 {
+	position: absolute;
+	top: 1750px;
+	left: 50px;
+	border: 2px solid #0000ff;
+	border-radius: 30px 30px 30px 30px;
+ width: 10%;  
+ margin-bottom: 60%; 
+}
+
+p {
+	color: gray;
+	font-family: Arial, sans-serif;
+	padding-right: 40%;
+	font-size: 14px;
+	position: absolute;
+	left: 50px;
+	top: 800px;
+	line-height: 1.5;
+
+}
+.heading {
+color: blue;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	position: absolute;
+	left: 45px;
+	top: 1800px;
+	line-height: 1.5;	
+	margin-right: 60%;
+}
+
+.list {
+list-style: inside;
+color: #0066ff;
+line-height: 1.8;
+	position: absolute;
+	top: 1820px;
+	left: 700px;
+	padding-bottom: 100px;
+	font-family: helvetica;
+	font-size: 14px;
+}
+
+
+
+
+figure {
+    border: thin #001f4d solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 420px;
+    max-height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 1000px;
+    left: 960px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+img {
+    max-width: 420px;
+    max-height: 350px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+figcaption {
+    background-color: #001f4d;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 12px;
+
+}
+
+h6 {
+	color: black;
+	font-family: Bookman, URW Bookman L, serif;
+	font-weight: normal;
+	font-size: 29px;
+	position: absolute;
+	top: 2200px;
+	left: 50px;	
+}
+
+
+.line3 {
+		position: absolute;
+	top: 2320px;
+	left: 50px;
+	border: 2px solid #0000ff;
+	border-radius: 30px 30px 30px 30px;
+ width: 10%;  
+ margin-bottom: 60%; 
+}
+
+
+ul {
+	list-style: lower-roman;
+	color: gray;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	left: 50px;
+	top: 2350px;
+	line-height: 1.5;
+ column-count: 3;
+  column-gap: 40px;
+    column-width: 100px;
+margin-right: 5%;
+
+  
+
+}
+
+
+
+
